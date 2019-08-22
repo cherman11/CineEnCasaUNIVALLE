@@ -1,0 +1,52 @@
+body 
+{
+width : 1000px;
+margin-left : auto;
+margin-right : auto;
+padding : 0px;
+}
+
+.cine
+{
+  width: 300px;
+  border-radius:100px;
+}
+.logo img
+{
+  width: 400px;
+  height: 250px;
+  float: left;
+  border-radius:0px;
+  padding: 50px 0px 0px 0px;
+}
+ /* En css también puedo hacer comentarios, estos se escriben entre los simbolos  slash asterisco  y cierro con asterisco slash */
+p
+{
+  font-size: 20px;
+  color:black;
+  /* Cambio de  fuente- !comics sans */
+  font: oblique 120%;
+}
+
+h3
+{
+	color:dark;
+}
+
+#mi_menu
+{
+  padding: 50px 0px 50px 450px;
+}
+#mi_menu li
+{
+  display: inline-block;
+  font-size: 20px;
+  margin: 60px 0px 40px 0px;
+  background: black;
+  padding: 20px 22px;
+}
+#mi_menu li a
+{
+  color: white;
+  text-decoration: none;
+}

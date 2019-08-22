@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>Cine en Casa</title>		
+		<link rel="stylesheet" href="css/style.css">
+		<link  rel="icon"   href="img/icono.png" type="image/png">
+	</head>
+
+  
+	<body>
+	<!-- nav, barra de navegacion con bootstrap.  -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="index.html">Cine En Casa</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">		  
+		  <li class="nav-item">
+			<a class="nav-link" href="quienes_somos.html">Quienes Somos</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contacto.html">Contacto</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="peliculas.html">Peliculas</a>
+		  </li>
+		</ul>		
+	  </div>
+	</nav>
+	
+		<div class="logo">
+			<img src="img/logo.png" class="logo" alt="Este es el logo de mi sitio">
+		</div>
+		
+			<ul id="mi_menu">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="quienes_somos.html">Quienes somos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="peliculas.html">Peliculas</a></li>
+		</ul>
+		  <!--Es una buena práctica comentar el código, independientemente del lenguaje en el que estemos codificando, los comentarios nos permiten tener una guía
+			acerca del desarrollo y los elementos que estamos utilizando, nos ayudan a ubicar fácilmente elementos que queremos reajustar más aun cuando nuestro código es muy
+			 extenso. Cada lenguaje tiene su manera de hacer comentarios, en html los comentarios van entre un menor que, seguido de un signo de admiración y dos guiones y cerramos
+		   con dos guiones y un mayor que. LOS COMENTARIOS NO SE VISUALIZAN EN NUESTRO SITIO WEB, ESTOS ESTÁN RESERVADO PARA QUIEN CODIFICA, la única forma de visualizarlos es a través de
+		  un editor de texto como Atom o utilizando el inspector de elementos del navegador. -->
+
+		  <h1>Bienvenidos a Cine en Casa</h1>
+		  
+			<!-- h2 es una etiqueta para titulos. Puedo realizar comentarios en cualquier parte del código -->
+		  <h2>Bienvenidos al mejor sitio de Cine Online</h2>
+
+		   <!-- p es una etiqueta para párrafos.  -->
+			 <p> Este es un sitio pensado para todos aquellos amantes del cine, que desean ver peliculas desde la comidad de sus hogares.
+			</p>
+
+			  <!-- img es una etiqueta para imágenes. La etiqueta de imagen tiene un atributo src que me permite escribir la ruta de las imágenes que deseo mostrar en mi sitio web -->
+			<img src="img/cine.jpg" class="cine">
+
+		<h3>Estas en mejor sitio de peliculas para disfrutar en familia</h3>
+
+		<!-- p es una etiqueta para párrafos.  -->
+			 <p> Contamos con las mejores peliculas para compartir desde la comodidad de tu hogar, con tus familiares y amigos.
+				DISFRUTA AHORA!
+			</p>
+
+			  <!-- img es una etiqueta para imágenes. La etiqueta de imagen tiene un atributo src que me permite escribir la ruta de las imágenes que deseo mostrar en mi sitio web -->
+			<!--<img src="img/cine2.jpg" class="imgredondda">-->
+			<img src="img/cine2.jpg" alt="imagen redonda con bootstrap" class="rounded-circle">
+			<!-- OL es una lista de peliculas ordenas.  -->
+			<p> 
+			
+			</p>
+			<p> Lista de Peliculas ordenadas
+			</p>
+			<ol>
+				<!-- a es una etiqueta que me permite agregar un enlace a una pagina externa, complementada con bootstrap  -->
+				<li><a href="https://www.cinecalidad.to/pelicula/el-bosque-maldito-2019-online-descarga/" class="badge badge-warning">El Bosque Maldito</a></li>						
+				<li><a href="#" class="badge badge-light">Ni en tus Sueños</a></li>
+				<li><a href="#" class="badge badge-light">HellBoy </a></li>
+				<li><a href="#" class="badge badge-light">After </a></li>
+				<li><a href="#" class="badge badge-light">Vida Salvaje </a></li>
+			</ol>
+
+			<!-- UL es una lista de peliculas en desorden.  -->
+			<p> Lista de Peliculas desordenadas
+			</p>
+			<ul type="circle">
+				<li><a href="#" class="badge badge-light">HellBoy </a></li>
+				<li><a href="#" class="badge badge-light">After </a></li>
+				<li><a href="#" class="badge badge-light">Vida Salvaje </a></li>
+				<li><a href="#" class="badge badge-light">Ni en tus Sueños</a></li>
+				<li><a href="https://www.cinecalidad.to/pelicula/el-bosque-maldito-2019-online-descarga/" class="badge badge-warning">El Bosque Maldito</a></li>						
+				</ul>
+			<!-- footer con bootstrap.  -->
+			<footer>
+				<div class="card mb-3">
+				  <img class="card-img-top" src="img/encabezado.png" alt="Card image foot">
+				  <div class="card-body">				
+					<p class="card-text">Cine En Casa @2019</p>				
+				  </div>
+				</div>
+			</footer>
+			
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+
+</html>
